@@ -1,4 +1,4 @@
-# DevOps End-to-End Project
+# DevOps End-to-End Project (Phase-1)
 
 ## Project Overview
 
@@ -187,7 +187,7 @@ Through this project I learned:
 ---
 
 ## Future Enhancements
-
+* Checkov, S3 Bucket & DynamoDB
 * Kubernetes Deployment
 * Jenkins CI/CD Pipeline
 * Prometheus Monitoring
