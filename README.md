@@ -70,6 +70,24 @@ Benefits:
 * Improved security posture
 
 ---
+## Security Scanning
+
+Implemented Checkov for Infrastructure as Code (IaC) security scanning.
+
+Security improvements implemented:
+
+- S3 Public Access Block
+- S3 Server Side Encryption
+- DynamoDB Point-In-Time Recovery
+- EC2 IMDSv2 Enforcement
+
+Checkov Results:
+
+- Passed Checks: 46
+- Failed Checks: 24
+
+Enterprise-level findings such as WAF, ACM, HTTPS listeners, VPC Flow Logs, and Cross-Region Replication are planned as future enhancements.
+
 
 ## Terraform Workflow
 
