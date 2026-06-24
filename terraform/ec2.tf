@@ -10,9 +10,17 @@ resource "aws_instance" "nginx_server" {
 
   iam_instance_profile = aws_iam_instance_profile.ec2_profile.name
 
-  associate_public_ip_address = false
-
   tags = {
     Name = "nginx-server"
+  }
+
+  associate_public_ip_address = false
+
+  metadata_options {
+    http_tokens = "required"
+  }
+
+  lifecycle {
+    ignore_changes = [ami]
   }
 }

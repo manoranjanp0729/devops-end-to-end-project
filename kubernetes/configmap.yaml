@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: nginx-config
+
+data:
+  APP_NAME: DevOps-Project-2026
+  ENVIRONMENT: development

@@ -12,3 +12,6 @@ terraform.tfstate.backup
 
 # OS Files
 .DS_Store
+terraform/minikube-linux-amd64
+kubernetes/get_helm.sh
+terraform/minikube-linux-amd64
